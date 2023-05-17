@@ -36,8 +36,6 @@ h1 {
 input {
     width: 200px;
     position: relative;
-    /* margin: 0px;
-    padding: 0px; */
     border: none;
     color: rgb(176, 171, 171);
     flex-grow: 1;
@@ -46,34 +44,25 @@ input {
 button {
     color: white;
     background-color: plum;
-    /* border-radius: 3px; */
     border: none;
-    /* border: gray solid 1px; */
-    /* position: absolute; */
-    /* right: 0px; */
     width: 40px;
     height: 22px;
-    /* margin: 0px;
-    padding: 0px; */
     text-align: center;
     cursor: pointer;
-    /* font-family: 'Montserrat', sans-serif; */
-}
-
-.task-container {
-    padding-top: 10px;
-    /* padding-bottom: 10px; */
-    display: flex;
-    justify-content: center;
-    position: relative;
-    /* color: black; */
-    /* background-color: red; */
-    color: rgb(88, 85, 85);
 }
 
 .tasks-container {
     margin-bottom: 20px;
 }
+
+.task-container {
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    color: rgb(88, 85, 85);
+}
+
 
 .todo-text {
     flex-grow: 1;
@@ -81,8 +70,8 @@ button {
 
 .delete {
     width: 15px;
-    /* color: red; */
     filter: invert(50%);
+    cursor: pointer;
 }
 
 .done {
