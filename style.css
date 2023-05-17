@@ -1,0 +1,98 @@
+body {
+    margin: 50px;
+    color: rgb(176, 171, 171);
+    background-color: lightseagreen;
+}
+
+.to-do-container {
+    margin: 0px auto;
+    position: relative;
+    width: 300px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(88, 85, 85);
+    background-color: rgb(235, 240, 245);
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+h1 {
+    font-size: 40px;
+    color: rgb(176, 171, 171);
+    text-align: center;
+}
+
+.add-container {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    border: lightgray solid 1px;
+    border-radius: 3px;
+    box-shadow: 0px 0px 2px 1px grey;;
+}
+
+input {
+    width: 200px;
+    position: relative;
+    /* margin: 0px;
+    padding: 0px; */
+    border: none;
+    color: rgb(176, 171, 171);
+    flex-grow: 1;
+}
+
+button {
+    color: white;
+    background-color: plum;
+    /* border-radius: 3px; */
+    border: none;
+    /* border: gray solid 1px; */
+    /* position: absolute; */
+    /* right: 0px; */
+    width: 40px;
+    height: 22px;
+    /* margin: 0px;
+    padding: 0px; */
+    text-align: center;
+    cursor: pointer;
+    /* font-family: 'Montserrat', sans-serif; */
+}
+
+.task-container {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    /* color: black; */
+    /* background-color: red; */
+    color: rgb(88, 85, 85);
+}
+
+.todo-text {
+    flex-grow: 1;
+}
+
+.delete {
+    width: 18px;
+    color: red;
+    filter: invert(50%);
+}
+
+.done {
+    padding-left: 5px;
+    width: 30px;
+    cursor: pointer;
+    /* -webkit-appearance: none;
+    -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+    filter: invert(50%); */
+    /* filter: grayscale(0); */
+    /* filter: hue-rotate(100deg); */
+    /* filter: brightness(100%) sepia(1); */
+    /* hue-rotate(182.6deg) saturate(-35.5%) brightness(61%); */
+    /* filter: invert(1); */
+    /* filter: hsl(300, 47%, 74%); */
+    /* filter: brightness(0.9) invert(.7) sepia(.5) hue-rotate(300deg) saturate(47%); */
+}
