@@ -10,7 +10,6 @@ $('button').on('click', () => {
 
 // delete
 $('.tasks-container').on('click', '.delete', (event) => {
-    console.log('deleted');
     event.target.parentNode.remove();
 });
 
