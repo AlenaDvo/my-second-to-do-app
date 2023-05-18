@@ -79,15 +79,4 @@ button {
     width: 25px;
     cursor: pointer;
     filter: invert(50%);
-    /* -webkit-appearance: none;
-    -webkit-filter: grayscale(100%);
-          filter: grayscale(100%);
-    
-    /* filter: grayscale(0); */
-    /* filter: hue-rotate(100deg); */
-    /* filter: brightness(100%) sepia(1); */
-    /* hue-rotate(182.6deg) saturate(-35.5%) brightness(61%); */
-    /* filter: invert(1); */
-    /* filter: hsl(300, 47%, 74%); */
-    /* filter: brightness(0.9) invert(.7) sepia(.5) hue-rotate(300deg) saturate(47%); */
 }
